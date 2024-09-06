@@ -1,0 +1,12 @@
+Store
+Contact
+Delivery
+About Us
+
+--coffee names--
+Coffeea liberica
+Coffea excelsa
+Coffea eugenioides
+Coffea racemosa
+Coffea stenophylla
+Coffea robusta
