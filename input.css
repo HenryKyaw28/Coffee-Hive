@@ -3,3 +3,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.Parent {
+    display: grid;
+    grid-template-areas: 
+    "upper upper"
+    "LL    LR";
+}
+.Upper {
+    grid-area: upper;
+}
+.LL {
+    grid-area: LL;
+}
+.LR {
+    grid-area: LR;
+}
+hr {
+    border-color: #f2e8d6;
+}
