@@ -41,3 +41,5 @@ password.txt
 
 # Database dumps
 *.sql
+
+node_modules/

@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
 </head>
+
 <body class="font-suse">
+
+    <!-- Header_Start -->
+    <header class="bg-primary px-20 py-5 flex items-center justify-between fixed w-full bg-opacity-30 backdrop-blur-md shadow-lg">
+        <img src="./assets/icons/coffee-beans.png" alt="" class="w-10 cursor-pointer">
+        <ul class="font-bold flex items-center text-[20px] gap-20">
+            <li><a href="">Store</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Delivery</a></li>
+            <li><a href="">About Us</a></li>
+        </ul>
+
+        <div class="flex items-center gap-5">
+            <!-- input_search -->
+            <div class="px-1 py-1  border-secondary-green cursor-pointer" id="search-border">
+                <input type="search" class="invisible px-2 py-1 focus-within:outline-none" id="search-input">
+                <span class="fa-solid fa-search" id="search-btn"></span>
+            </div>
+            <a href="">
+                <img src="./assets/icons/portrait.png" alt="" class="w-5">
+            </a>
+            <a href="">
+                <img src="./assets/icons/shopping-cart.png" alt="" class="w-5">
+            </a>
+        </div>
+    </header>
+    <!-- Header_End -->
+
+    <!-- Main_Container -->
+    <div class="bg-secondary-cream">
+
+        <!-- Home_Session_Starts_Here -->
+        <div class="px-20 py-[180px] flex items-center justify-between gap-10">
+            <h1 class="font-semibold text-[30px] w-[400px]">
+                "Welcome to <span class="bg-secondary-green px-1 py-2">Coffee-Hive</span> where every cup is brewed with passion, served with warmth, and enjoyed in good company."
+             </h1>
+            <img src="./assets/img/homecoffee.png" alt="" class="w-[600px]">
+        </div>
+
+
+    </div>
+
+
+    <script src="./app.js"></script>
 
     <!-- Header -->
     <header class="bg-primary w-full px-20 py-5 flex items-center justify-between">
@@ -34,4 +80,5 @@
     </div>
 
 </body>
+
 </html>
